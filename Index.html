@@ -1,0 +1,3754 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arbic News Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    /> -->
+  </head>
+
+  <body dir="rtl">
+    <!-- Header section -->
+    <section>
+      <header class="d-flex d-md-block justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarNav"
+            >
+              <div class="d-flex flex-row-reverse">
+                <ul class="navbar-nav me-md-5 flex-row-reverse">
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">أقسام خاصة</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">صفحات مدار 21</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">الرئيسية</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">سياسة</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">اقتصاد</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">مجتمع</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">رياضة</a>
+                  </li>
+                  <li class="nav-item fs-5 fw-bold ms-2">
+                    <a class="nav-link" href="#">جهويات</a>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                  <i class="fa-solid fa-bars fs-4"></i>
+                 <a href="#"> <img class="me-2" src="images/logo 2.png" alt="Logo" /></a>
+                </div>
+              </div>
+              <div class="d-flex align-items-center flex-row-reverse">
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fab fa-x-twitter"></i
+                ></a>
+                <a href="#" class="me-2 text-dark fs-5 ms-2"
+                  ><i class="fas fa-search"></i
+                ></a>
+                <div class="d-flex border rounded-pill sun-moon-stl ms-2">
+                  <a href="#" class="me-2 text-dark sun-moon-icon"
+                    ><i class="fas fa-moon fs-6"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="text-dark border rounded-circle switcher-sun"
+                    ><i class="fa-solid fa-sun fs-6"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <a href="#" class="d-flex align-items-center d-inline-block d-md-none">
+          <img class="ms-3" src="images/logo 2.png" alt="Logo" />
+        </a>
+      </header>
+    </section>
+    <!-- Header section ends here -->
+    <!-- section-2 Start Here -->
+    <section class="first_slider">
+      <div class="slider container  flex-md-row pt-4">
+        <div class="slider-image">
+          <button class="img-nav-prev" onclick="changeSlide(-1)">
+            <i class="fa fa-arrow-left"></i>
+          </button>
+          <img
+            id="slide-image"
+            class="h-100"
+            src="images/image1.jpg"
+            alt="Slider Image"
+          />
+          <button class="img-nav-next" onclick="changeSlide(1)">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+    
+        <div class="slider-content">
+          <div>
+            <a id="slide-title" class="a-black" href="#">
+          
+                إعلام عبري: تخوف إسرائيلي من حظر توريد الأسلحة عقب تحذيرات من
+                مجاعة بغزة
+           
+            </a>
+            <p id="slide-description">
+              كشف إعلام عبري، السبت، عن قلق إسرائيلي من فرض عقوبات دولية عليه...
+            </p>
+    
+            <div class="social-icons">
+              <a href="#"><img src="images/sh.png" alt="Share" /> </a>
+              <a href="#"><img src="images/ws.png" alt="WhatsApp" /> </a>
+              <a href="#"><img src="images/fb.png" alt="Facebook" /> </a>
+            </div>
+          </div>
+          <div class="pagination-main">
+            <div class="pagination d-flex flex-row-reverse flex-wrap justify-content-center justify-content-md-end">
+              <span class="page-number" data-slide="0">1</span>
+              <span class="page-number" data-slide="1">2</span>
+              <span class="page-number" data-slide="2">3</span>
+              <span class="page-number" data-slide="3">4</span>
+              <span class="page-number" data-slide="4">5</span>
+              <span class="page-number" data-slide="5">6</span>
+              <span class="page-number" data-slide="6">7</span>
+              <span class="page-number" data-slide="7">8</span>
+              <span class="page-number" data-slide="8">9</span>
+              <span class="page-number" data-slide="9">10</span>
+              <span class="page-number" data-slide="10">11</span>
+              <span class="page-number" data-slide="11">12</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-container right-first-sec">
+          <!-- Card 1 -->
+          <div class="cards first-slide-sec-cards">
+            <div class="cards-label"><span>افتتاحية</span></div>
+            <div class="cards-content">
+              <div class="cards-title">
+                <a class="a-black"  href="#">"الحريك" الجماعي.. ناقوس خطر حقيقي</a>
+              </div>
+              <div class="cards-text">
+                بينما كنا مشغولين بالسعار التنموي الذي يقطعه المغرب، وبلادنا
+                تت[…]
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="cards first-slide-sec-cards">
+            <div class="cards-label"><span>من</span></div>
+            <div class="cards-content">
+              <div class="cards-title">
+                <a class="a-black"  href="#">عاجل/ هذه أسباب ظهور الملك مستندا إلى عكاز طبي</a>
+              </div>
+              <div class="cards-text">
+                ظهر الملك محمد السادس مستندا إلى عكاز طبي خلال استقبال […]
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="cards first-slide-sec-cards">
+            <div class="cards-label"><span>مثير</span></div>
+            <div class="cards-content">
+              <div class="cards-title">
+                <a class="a-black"  href="#">التحكيم.. من سوء إلى أسوأ في عهد عبد السلام بلفقوسر</a>
+              </div>
+              <div class="cards-text">
+                يأتي عبد السلام بلفقوسر، رئيس العصبة الوطنية لكرة القدم
+                الاحترافية، التي تخرج من رأسها الرؤس[…]
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- section-2 End Here -->
+
+    <!-- sub-section start -->
+    <!-- Start Top border -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-12 mb-3 border-bottom border-3 border-success d-flex justify-content-between flex-row-reverse align-items-end"
+          >
+            <a
+              href="#"
+              class="text-decoration-none mt-1 fs-4 fw-bold text-success"
+              >المزيد<i class="fa-solid fa-angles-left" style="font-size:15px;"></i><i class="fa-solid fa-angles-left" style="font-size:15px; margin-right:-3px;"></i></a
+            >
+            <h3 class="title-1 position-relative mb-0 text-black">فئات</h3>
+          </div>
+        </div>
+
+        <!-- Cards Row -->
+        <div class="d-flex flex-column flex-md-row flex-md-row-reverse g-3 mb-3">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+            <div class="card text-white fw-bold position-relative">
+              <img src="images/bg-1.png" class="card-img" alt="News Image" />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                style="text-align: right"
+              >
+                <h5
+                  class="card-title text-end text-white mb-0 px-3 bg-gradient-grn"
+                  style="
+                    margin-left: auto;
+                    width: max-content;
+                    transform: skewX(-8deg);
+                  "
+                >
+                  دولي
+                </h5>
+                <a href="#"
+                  class="a-white card-text large mb-0 mt-0 border-3 border-top border-success text-white"
+                >
+                  الحزب الديمقراطي الليبرالي يفقد أغلبيته بالانتخابات اليابانية
+              </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+            <div class="card text-white fw-bold">
+              <img src="images/bg-2.png" class="card-img" alt="News Image" />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                style="text-align: right"
+              >
+                <h5
+                  class="card-title text-end text-white mb-0 bg-gradient-grn px-3"
+                  style="
+                    margin-left: auto;
+                    width: max-content;
+                    transform: skewX(-8deg);
+                  "
+                >
+                  سياسة
+                </h5>
+                <a href="#"
+                class="a-white card-text large mb-0 mt-0 border-3 border-top border-success text-white"
+                >
+                  رشيدة داتي: التعاون الثقافي بين المغرب وفرنسا يحظى بأهمية
+                  متزايدة
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+            <div class="card text-white fw-bold position-relative">
+              <img src="images/bg-3.png" class="card-img" alt="News Image" />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                style="text-align: right"
+              >
+                <h5
+                  class="card-title text-end text-white mb-0 bg-gradient-grn px-3"
+                  style="
+                    margin-left: auto;
+                    width: max-content;
+                    transform: skewX(-8deg);
+                  "
+                >
+                  خدمات
+                </h5>
+                <a href="#"
+                class="a-white card-text large mb-0 mt-0 border-3 border-top border-success text-white"
+                >
+                  أمطار قوية بهذه المناطق.. طقس اليوم <br />
+                  الثلاثاء
+              </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-white fw-bold">
+              <img src="images/bg-4.png" class="card-img" alt="News Image" />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                style="text-align: right"
+              >
+                <h5
+                  class="card-title text-end text-white mb-0 bg-gradient-grn px-3"
+                  style="
+                    margin-left: auto;
+                    width: max-content;
+                    transform: skewX(-8deg);
+                  "
+                >
+                  أسفار
+                </h5>
+                <a href="#"
+                class="a-white card-text large mb-0 mt-0 border-3 border-top border-success text-white"
+                >
+                  الخليج: المملكة تنخرط في مخطط مهم لتطوير السكك الحديدية
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sub-section End -->
+    <!-- End Top border -->
+    <!-- 3 section slider -->
+    <section id="slider-2">
+      <div class="container-fluid py-5" style="background-color: #05231c">
+        <h3
+          class="section-title slider-main-title mb-5 text-right"
+          style="color: #18bd98"
+        >
+          برامجنا
+        </h3>
+        <div class="video-slider">
+          <!-- Main Video Display -->
+          <div class="video-display position-relative">
+            <iframe
+              id="mainVideo"
+              src="https://www.youtube.com/embed/4YuFwjTGGa8"
+              title="نحن نمثل عالم الحقيقة بانجازاتنا في قضية الصحراء المغربية بينما العالم يصرف الملايير لتحقيق الفشل"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <a href="#"
+              id="main-text"
+              class="mb-0 p-4 a-white"
+              style="
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                height: 50%;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                background: linear-gradient(
+                  180deg,
+                  rgba(66, 66, 66, 0) 0.01%,
+                  rgba(22, 22, 22, 0.660881) 20%,
+                  rgba(10, 10, 10, 0.850558) 34.5%,
+                  #000000 71%
+                );
+              "
+            >
+              نحن نمثل عالم الحقيقة بانجازاتنا في قضية الصحراء المغربية بينما
+              العالم يصرف الملايير لتحقيق الفشل
+          </a>
+          </div>
+
+          <!-- Thumbnail Navigation -->
+          <div class="thumbnail-container" id="thumbnailContainer">
+            <!-- Thumbnails will be populated dynamically -->
+          </div>
+
+          <!-- Pagination and Navigation Arrows -->
+          <div class="pagination-controls custom-overflow-hidden flex-wrap">
+            <ul
+              class="pagination pagination-container px-5 py-2 flex-wrap flex-row-reverse justify-content-center"
+              id="pagination"
+            ></ul>
+            <div class="px-4">
+              <button
+                class="btn btn-primary ml-2 rounded-circle pagination-arrow"
+                onclick="nextPage()"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+              <button
+                class="btn btn-primary mr-2 rounded-circle pagination-arrow"
+                onclick="prevPage()"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 section end slider -->
+
+    <!--Another sub-section start -->
+    <!-- Start Top border-2 -->
+    
+    <!-- End Top border-2 -->
+    <!--Another sub-section End -->
+
+    <!-- Section-3 start here -->
+    <section id="riyzt">
+      <div class="container-fluid">
+        <div class="row flex-md-row">
+          <!-- right banner -->
+          <div class="col-12 col-md-8">
+            <div class="text-end mb-2 mt-4">
+              <h5>رياضة</h5>
+              <div class="border-3 border-success border-top"></div>
+            </div>
+            <div class="position-relative football-img-parent">
+              <img
+                src="images/banner-1.png"
+                class="img-fluid w-100 h-100"
+                alt=""
+              />
+              <div
+                class="px-4 position-absolute bottom-0 start-0 end-0 text-white text-center py-2 h-100 d-flex flex-column align-items-center justify-content-end"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    rgba(66, 66, 66, 0) 0.01%,
+                    rgba(22, 22, 22, 0.660881) 31.5%,
+                    rgba(10, 10, 10, 0.850558) 44%,
+                    #000000 74%
+                  );
+                "
+              >
+                <a href="#" class="head fs-2 fw-bold w-100 mb-0 mb-md-4 a-white">
+                  اختبار صعب لمكونيا لطرد نحس الهزائم وكسر "عقدة" الوداد أمام
+                  <br />الفتح
+                </a>
+                <p class="para fs-6 fw-bold d-none d-md-block">
+                  تحت أنظار جماهيره المتعطشة للانتصارات، يستعد فريق الوداد
+                  الرياضي لمواجهة الفتح الرباطي مساء اليوم الأحد، في واحدة من
+                  أبرز مباريات الجولة التاسعة من منافسات البطولة الاحترافية.
+                  ويدخل رجال المدرب الجنوب إفريقي، رولاني موكوينا، المباراة بعد
+                  سلسلة من النتائج السلبية على المستوى المحلي،
+                </p>
+                <span class="d-flex align-items-start w-100 flex-column">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+                    <p class="mb-0 date-text">٢٥ أكتوبر ٢٠٢٤</p>
+                    
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-clock" style="color: #18bd98;"></i>
+
+                    <p class="mb-0 date-text">قبل 3 ساعات</p>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div class="row mt-2 flex-row-reverse pe-0">
+             
+              <div class="col-12 col-md-4">
+                <div class="p-0 text-end mt-3 mt-md-2">
+                  <img
+                    src="images/R-sidebar-1.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <div
+                    class="right-sidebar border-start border-3 border-success mt-0 mt-md-1"
+                  >
+                    <a href="#" class="d-block a-black"
+                      >نهضة بركان يؤمن الصدارة وسابينتو يفشل في تذوق طعم الفوز مع
+                      الرجاء
+                </a>
+                    <p class="">
+                      أمّن نهضة بركان صدارة الدوري الاحترافي لجولة إضافية عقب فوزه
+                      الصعب (2-1) على ضيف المغرب التطواني، بينما ما زال الرجاء
+                      الرياضي يبحث عن فوزه الأول في الدوري تحت قيادة مدربه الجديد
+                    </p>
+                    <small class="text-muted">قبل ساعة</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="p-0 text-end mt-3 mt-md-2">
+                  <img
+                    src="images/R-sidebar-2.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <div
+                    class="right-sidebar  border-start  border-3 border-success mt-0 mt-md-1"
+                  >
+                  <a href="#" class="d-block a-black"
+                      >“حيرة” موكوينا تُفقد الوداد هويته والعلوي يؤكد ضرورة الصبر
+                      والاستقرار
+                </a>
+                    <p class="">
+                      قدّم نادي الوداد الرياضي انطلاقة متعثرة هذا الموسم في
+                      البطولة الوطنية، إذ اكتفى برصيد 11 نقطة فقط من أصل 24 نقطة
+                      ممكنة في 8 جولات، ليجد نفسه في المركز التاسع، بعيداً عن
+                    </p>
+                    <small class="text-muted">قبل ساعة</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="p-0 text-end mt-3 mt-md-2">
+                  <img
+                    src="images/R-sidebar-3.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <div
+                    class="right-sidebar border-start border-3 border-success mt-0 mt-md-1"
+                  >
+                  <a href="#" class="d-block a-black"
+                      >فليك حذر لاعبي برشلونة في <br />
+                      الكلاسيكو
+                </a>
+                    <p class="">
+                      ماتزال مباراة الكلاسيكو الأخيرة بين ريال مدريد وبرشلونة،
+                      التي انتهت بفوز رفاق النجم البولندي، روبرت ليفاندوبسكي
+                      بأربعة أهداف للاشيء 4-0 في ملعب سانتياغو برنابيو، تحمل
+                      الكثير من الأسر
+                    </p>
+                    <small class="text-muted">قبل ساعة</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 text-end  pe-2"
+          >
+          <div class="text-end mb-2 mt-4">
+            <h5>رأي</h5>
+            <div class="border-3 border-success border-top"></div>
+         
+          </div>
+           <div>
+             <!-- Card -1 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-1"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(10deg); font-size: 12px">
+                      عبد السلام الصديقي</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block mt-2 m-1 lh-sm" style="font-size: 12px">
+                    سمعة المغرب في 2024.. فجوة 16 نقطة بين السمعة الداخلية
+                    والخارجية
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-1.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Card-2 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-2"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(10deg); font-size: 12px">
+                      محمد السلاسي</span
+                    >
+                  </div>
+                  <a href="#" class="a-black  d-block mt-2 m-1 lh-sm" style="font-size: 12px">
+                    المتغيرات والطموح.. كيف نفهم زيارة ماكرون؟
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-2.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- Card-3 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-1"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg); font-size: 12px"
+                  >
+                    <span style="transform: skewX(10deg)"> عمر الشرقاوي</span>
+                  </div>
+                  <a href="#" class="a-black d-block  mt-2 m-1 lh-sm" style="font-size: 12px">
+                    قرار أممي منصف وجنازة ببيت تبون
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Card-4 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-2"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg); font-size: 12px"
+                  >
+                    <span style="transform: skewX(10deg)"> قطر الندى ديار</span>
+                  </div>
+                  <a href="#" class="a-black d-block  mt-2 m-1 lh-sm" style="font-size: 12px">
+                    التعاون المغربي الفرنسي والتحالف الاستراتيجي الجديد
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-4.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Card-5 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-2"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg); font-size: 12px"
+                  >
+                    <span style="transform: skewX(10deg)"> خديجة العاج </span>
+                  </div>
+                  <a href="#" class="a-black d-block  mt-2 m-1 lh-sm" style="font-size: 12px">
+                    ”المغرب وفرنسا: شراكة وطيدة استثنائية وتحالف قوي نحو مستقبل
+                    مشترك “
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-5.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Card-6 -->
+              <div
+                class="d-flex flex-row-reverse border-bottom border-1 border-success mb-2 pb-2"
+              >
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg); font-size: 12px"
+                  >
+                    <span style="transform: skewX(10deg)"> نوفل البعمري</span>
+                  </div>
+                  <a href="#" class="a-black d-block  mt-2 m-1 lh-sm" style="font-size: 12px">زيارة دولة</a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-6.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Card-7 -->
+              <div class="d-flex flex-row-reverse mb-2">
+                <div class="pe-2 col-10">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(10deg); font-size: 12px">
+                      الدكتور محمد بنيعيش</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block mt-2 m-1 lh-sm" style="font-size: 12px">
+                    معرفة النفس والخصوصية المنهجية للتصوف من منظور ابن رشد
+                  </a>
+                </div>
+                <div class="col-2">
+                  <img
+                    src="./images/sidebar-7.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+              </div>
+           </div>
+           <div class="mt-3">
+            <div
+              class="border text-white p-3 text-end h-100"
+              style="background: #05231c"
+            >
+              <h6 class="title-2 istetlaia fs-3 title-2 position-relative pb-2">
+                استطلاع رأي
+              </h6>
+              <div class="p-0 p-md-2">
+                <a href="#" class="a-white fs-2 fw-bold p-0 p-md-2">
+                  بعد أزمة الماء.. هل تساهم في ترشيد استعمال هذه المادة الحيوية؟
+                </a>
+              </div>
+              <form class="check-bx-form ml-auto mr-4 mr-md-5">
+                <div class="form-check mt-1">
+                  <label class="form-check-label fs-4 fw-bold" for="option1"
+                    >نعم</label
+                  >
+                  <input
+                    class="form-check-input mt-3"
+                    type="radio"
+                    name="poll"
+                    id="option1"
+                  />
+                </div>
+                <div class="form-check mt-1">
+                  <label class="form-check-label fs-4 fw-bold" for="option2"
+                    >لا</label
+                  >
+                  <input
+                    class="form-check-input mt-3"
+                    type="radio"
+                    name="poll"
+                    id="option2"
+                  />
+                </div>
+                <div class="form-check mt-1">
+                  <label class="form-check-label fs-4 fw-bold" for="option3"
+                    >غير مهتم</label
+                  >
+                  <input
+                    class="form-check-input mt-3"
+                    type="radio"
+                    name="poll"
+                    id="option3"
+                  />
+                </div>
+              </form>
+              <div
+                class="mt-4 d-flex flex-row-reverse justify-content-between align-items-center w-100"
+              >
+                <a href="#"
+                  class="a-white fs-6 btn-nataij d-flex gap-3 align-items-center flex-row-reverse px-3 py-2"
+                >
+                  <i
+                    class="fa-solid fa-arrow-left-long clr-gradient-grn bg-gradient-grn-2 rounded-circle clr-gradient-grn-border p-2"
+                  ></i
+                  >&nbsp; &nbsp; عرض نتائج
+            </a>
+                <h2
+                  class="fs-6 d-flex gap-1 flex-row-reverse align-items-center me-0 me-md-3"
+                >
+                  صوت
+                  <a href="#" class=" ms-2 clr-gradient-grn"
+                    ><i
+                      class="fa-solid fa-volume-high"
+                      style="transform: rotate(180deg)"
+                    ></i
+                  ></a>
+                </h2>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End the Main Section both left and right  -->
+    </section>
+    <!--section-3 End -->
+
+    <!-- Section-4-Start here -->
+
+    <!-- Section-4-End -->
+
+    <!-- Section-5-Start here-->
+    <section class="six_section">
+      <div class="container-fluid slider-cont mt-4 mb-3 px-0">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="d-flex flex-row-reverse">برامجنا</h2>
+            <div
+              id="myCarousel"
+              class="carousel slide"
+              data-ride="carousel"
+              data-interval="0"
+            >
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/62821dc23c539-340x240.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/673326fb118f8-340x240.jpg"
+                            class=""
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/64c6204434ba3-340x240.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/6581905eeb6ad-400x300.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item carousel-item">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/658190b7cb2df-400x300.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/65819102c8688-400x300.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/6581917bb2685-400x300.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            class="w-100 h100"
+                            src="images/658191c36cc5d-400x300.jpg"
+                            class="img-fluid"
+                            alt="Macbook"
+                          />
+                        </div>
+                        <div class="thumb-content  d-flex align-items-center">
+                          <div class="sec-div-slide-title d-flex align-items-center">
+                            <h5 class="mb-0">٢٢:١</h5>
+                            <h5 class="mb-0">٥</h5>
+                          </div>
+                          <a href="#" class="a-white">المهم الموسم الثاني</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a
+                class="carousel-control-prev sec-slider-prev-btn"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a
+                class="carousel-control-next sec-slider-next-btn"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-5-End -->
+
+    <!-- Section-6 starts here -->
+    <section class="container-fluid">
+      <div class="row g-4 mb-4">
+        <div class="col-md-4 h-25 px-3">
+          <div
+            class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+          >
+            <h5 class="title position-relative">حوارات</h5>
+          </div>
+          <div class="position-relative">
+            <img src="./images/c1.png" class="card-img" width="100%" alt="" />
+          </div>
+          <div class="col-12 mb-4 text-end mt-3">
+            <div>
+              <div
+                class="d-flex flex-row-reverse justify-content-between"
+                style="height: 50px"
+              >
+                <div class="d-flex align-items-start">
+                  <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                  <span>
+                    <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                  </span>
+                </div>
+                <div style="width: 90%">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >هاجر</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative top-50">
+                <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                  مُؤنساه الوحدة والنُكران.. مصطفى منير من ركح المسرح إلى دار
+                  المسنين
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 h-25 px-3">
+          <div
+            class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+          >
+            <h5 class="title position-relative">مجتمع</h5>
+          </div>
+          <div class="position-relative">
+            <img src="./images/c2.png" class="card-img" width="100%" alt="" />
+          </div>
+          <div class="col-12 mb-4 text-end mt-3">
+            <div>
+              <div
+                class="d-flex flex-row-reverse justify-content-between"
+                style="height: 50px"
+              >
+                <div class="d-flex align-items-start">
+                  <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                  <span>
+                    <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                  </span>
+                </div>
+                <div style="width: 90%">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >زهير</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative top-50">
+                <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                  مُؤنساه الوحدة والنُكران.. مصطفى منير من ركح المسرح إلى دار
+                  المسنين
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 h-25 px-3">
+          <div
+            class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+          >
+            <h5 class="title position-relative">سياسة</h5>
+          </div>
+          <div class="position-relative">
+            <img src="./images/c3.png" class="card-img" width="100%" alt="" />
+          </div>
+          <div class="col-12 mb-4 text-end mt-3">
+            <div>
+              <div
+                class="d-flex flex-row-reverse justify-content-between"
+                style="height: 50px"
+              >
+                <div class="d-flex align-items-start">
+                  <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                  <span>
+                    <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                  </span>
+                </div>
+                <div style="width: 90%">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >هشام</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative top-50">
+                <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                  بنكيران يرد على الخلفي: تجديد قيادات الحزب لا يجب أن يكون على
+                  حساب الكفاءة
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-md-4 g-0">
+        <div class="col-md-4 text-end px-md-3 px-0">
+          <div class="border-end border-4 border-color text-end pe-1">
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc1.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >عبد السلام الصديقي</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc2.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >نوفل</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-3">
+                <img
+                  src="./images/cc3.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >عمر</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-end px-md-3 px-0">
+          <div class="border-end border-4 border-color text-end pe-1">
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc4.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >محمد</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc5.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >نوفل</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-3">
+                <img
+                  src="./images/cc6.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >نوفل</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-end px-md-3 px-0">
+          <div class="border-end border-4 border-color text-end pe-1">
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc7.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >محمد</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div
+              class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+            >
+              <div class="col-3">
+                <img
+                  src="./images/cc8.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >عبد السلام
+                  </span>
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-3">
+                <img
+                  src="./images/cc9.png"
+                  class=""
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-9">
+                <div
+                  class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                  style="transform: skewX(-8deg)"
+                >
+                  <span style="transform: skewX(20deg)" class="skew-text"
+                    >محمد</span
+                  >
+                </div>
+                <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                  أخنوش: رئيس الحكومة يجب أن يمتلك الشجاعة ومواجهة الضغط أمرٌ
+                  صحي
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-6 End -->
+
+    <!-- Section-7 starts here -->
+    <section class="eight_section mt-5">
+      <div class="container-fluid content-section slider-cont pt-4 pb-1">
+        <div class="row text-center">
+          <!-- First Card -->
+          <div class="col-md-4">
+            <div class="bg-sec-8 card mb-3 border-0 p-0">
+              <div class="top-title-sec-8">
+                <h5 class="w-100 card-title p-2 text-center">انفوغراف</h5>
+              </div>
+              <div class="sec-8-img card-img-container">
+                <img
+                  src="images/Section8img3.png"
+                  class="card-img"
+                  alt="Infographic"
+                />
+              </div>
+              <div class="top-title-sec-8 card-body text-center">
+                <a href="#" class="a-white">المقاولات في المغرب</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="col-md-4">
+            <div class="bg-sec-8 card mb-3 border-0 p-0">
+              <div class="top-title-sec-8">
+                <h5 class="w-100 card-title p-2 text-center">سكرين شوت</h5>
+              </div>
+              <div class="sec-8-img card-img-container">
+                <img
+                  src="images/Section8img2.png"
+                  class="card-img"
+                  alt="Screenshot"
+                />
+              </div>
+              <div class="top-title-sec-8 card-body text-center">
+                <a href="#" class="a-white">الرمضاني يعلق حول الجدل المرتبط بإلياس المالكي</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+
+          <div class="col-md-4">
+            <div class="bg-sec-8 card mb-3 border-0 p-0">
+              <div class="top-title-sec-8">
+                <h5 class="w-100 card-title p-2 text-center">فيديو متداول</h5>
+              </div>
+              <div class="sec-8-img card-img-container">
+                <img
+                  src="images/Section8img1.png"
+                  class="card-img"
+                  alt="Video Thumbnail"
+                />
+              </div>
+              <div class="top-title-sec-8 card-body text-center">
+                <a href="#" class="a-white">بالتصفيقات والعناق.. تلاميذ ثانوية تغرامت يقيمون وداعا</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- border-top-3 start here -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 h-25 px-4">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title-1 position-relative">حوارات</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-8 End -->
+
+    <!-- section-9 Start here -->
+    <section>
+      <div class="container-fluid mb-4">
+        <div class="row">
+          <div class="col-md-6 ps-0">
+            <div class="position-relative h-100">
+              <img src="./images/user.jpeg" width="100%" height="100%" alt="" />
+              <div class="card-content">
+                <a href="#" class="a-white heading">
+                  آيت الجاوي: يجب التخلي عن “زحمة” الأعمال برمضان وأرفض وصف
+                  الأفلام التجارية بـ”الرديئة”
+                </a>
+                <p class="sub-heading">
+                  قال المخرج لطفي الجاوي إنه لا يجب أن تركز الإنتاجات في موسم
+                  رمضان، والتخلي عن الزحمة التي يعرفها هذا الشهر، بسبب الزخم
+                  الكبير في الأعمال، بخلاف باقي أشهر السنة، إلى جانب سرعة
+                  تصويرها دون جودة فنية. وأضاف آيت الجاوي في تصريح
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 text-end d-flex flex-column justify-content-between gap-2 gap-lg-0 mb-2 mb-md-0 mt-3 mt-md-0"
+          >
+            <div class="d-flex text-end">
+              <div class="col-4 col-md-3">
+                <img
+                  src="./images/side-1.png"
+                  class=""
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-8 col-md-9">
+                <div class="mb-2 pb-2 pb-md-0 primary">
+                  <p class="fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    موعد الدورة الـ20 لمهرجان السينما والهجرة بأكادير
+                  </p>
+                </div>
+
+                <div class="mb-2 pb-2 pb-md-0 border-end border-3 border-black">
+                  <a class="a-black fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    تحتضن مدينة أكادير الدورة العشرين للمهرجان الدولي للسينما
+                    والهجرة خلال الفترة الممتدة ما بين 11 و16 نونبر الجاري،
+                    وتشتمل على برنامج غني ومتنوع،
+                  </a>
+                </div>
+                <div>
+                  <p class="hours-div">6 hours ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex text-end">
+              <div class="col-4 col-md-3 mt-2">
+                <img
+                  src="./images/side-2.png"
+                  class=""
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-8 col-md-9">
+                <div class="mb-2 pb-2 pb-md-0 primary">
+                  <p class="fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    العلمي: مداولة تساهم في حضوري بالتلفزيون ويجب وضع شروط
+                    لإشراك المؤثرين
+                  </p>
+                </div>
+
+                <div class="mb-2 pb-2 pb-md-0 border-end border-3 border-black">
+                  <a class="a-black fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    كشف الممثل جواد العلمي أنه يشارك في مسلسل جديد يحمل عنوان
+                    “Bag” للمخرج إدريس الروخ، الذي جرى تصويره قبل أيام لفائدة
+                    القناة الأولى، مؤكدا أن
+                  </a>
+                </div>
+                <div>
+                  <p class="hours-div">6 hours ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex text-end">
+              <div class="col-4 col-md-3 mt-2">
+                <img
+                  src="./images/side-3.png"
+                  class=""
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+              <div class="pe-2 col-8 col-md-9">
+                <div class="mb-2 pb-2 pb-md-0 primary">
+                  <p class="fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    باسو: فيلم “زعزوع” يدحض ارتباط زاكورة بـ”الشعوذة” و”استخراج
+                    الكنوز”
+                  </p>
+                </div>
+
+                <div class="mb-2 pb-2 pb-md-0 border-end border-3 border-black">
+                  <a class="a-black fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    حاول الممثل الكوميدي محمد باسو تغيير النظرة القاتمة عن
+                    منطقته ومسقط رأسه زاكورة التي ارتبطت بأفعال السحر والشعوذة
+                    واستخراج الكنوز، واستغلالها في الاتجار بالأط
+                  </a>
+                </div>
+                <div>
+                  <p class="hours-div">6 hours ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-9 End -->
+
+    <!-- Section-10 starts here -->
+    <section>
+      <div class="container-fluid mb-3">
+        <div class="row g-4">
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">بيبل</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/main-1.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >بيبل</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    الأمم المتحدة بالمغرب تختار غزلان بنجلون شخصية السنة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">بيئة</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/main-2.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >بيئة</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    دور الذكاء الاصطناعي في خفض انبعاثات الطاقة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">منوعات</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/main-3.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >منوعات</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    أتلتيكو مدريد يمنع تسعة مشجعين من حضور المباريات مدى الحياة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fuild mb-3 px-3">
+        <div class="row g-md-4 g-0">
+          <div class="col-md-4 h-25 ps-md-3">
+            <div class="border-end border-4 border-color text-end ps-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-1.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-2.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/m-3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 ps-md-3">
+            <div class="border-end border-4 border-color text-end ps-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-4.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-5.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/m-6.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 ps-md-3">
+            <div class="border-end border-4 border-color text-end ps-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-7.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/m-3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/img-sec-1.jpg"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >وكالات</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block  fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    يديولوجي وأدى ثمن فشلولوجي وأدى ثمن فشله السياسي
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section-10 End -->
+
+    <!-- Section-11 starts here -->
+    <section>
+      <div class="container-fluid my-4">
+        <div class="row">
+          <!-- Second Column: Right Section (جهويات) with 6 images in 3x2 grid -->
+          <div class="col-md-8">
+            <h3
+              class="section-title text-right fs-5"
+              style="border-bottom: 2px solid #077e63; padding: 10px 0px"
+            >
+              جهويات 
+            </h3>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building.png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                    class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building (1).png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                  class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building (2).png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                  class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building (3).png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                  class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building (4).png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                  class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card position-relative h-100">
+                  <img
+                    src="images/building (5).png"
+                    class="card-img-top h-100"
+                    alt="news"
+                  />
+                  <a href="#"
+                  class="a-white card-title d-flex align-items-end position-absolute bottom-0 w-100 text-right mb-0 text-white px-2"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(66, 66, 66, 0) 0.01%,
+                        rgba(22, 22, 22, 0.660881) 20%,
+                        rgba(10, 10, 10, 0.850558) 34.5%,
+                        #000000 71%
+                      );
+                      height: 150px;
+                      padding-bottom: 20px;
+                    "
+                  >
+                    نص العنوان هنا ويعرض ملخص سريع للخبر أو المقال.
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- First Column: Left Section (كوراس) -->
+          <div class="col-md-4 d-flex flex-column gap-3">
+            <h3
+              class="section-title text-right fs-5"
+              style="border-bottom: 2px solid #077e63; padding: 10px 0px"
+            >
+              كوراس
+            </h3>
+            <div class="news-item mb-3">
+              <div class="d-flex">
+                <img src="images/ss.png" alt="news" width="100" />
+
+                <div
+                  class="d-flex flex-column align-items-start row-gap-0 px-2"
+                >
+                  <span
+                    class="category d-inline-block top-0 end-0 text-white py-0 px-3 mb-0"
+                    style="
+                      background-color: #077e63;
+                      background: skewX(-8deg);
+                      font-size: 12px;
+                    "
+                    >سياسة</span
+                  >
+                  <a hrerf="#" class="a-black text-end">
+                    هذا نص الخبر الأول يوضح بعض المعلومات والتفاصيل عن الحدث.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="news-item mb-3">
+              <div class="d-flex">
+                <img src="images/ss (1).png" alt="news" width="100" />
+
+                <div
+                  class="d-flex flex-column align-items-start row-gap-0 px-2"
+                >
+                  <span
+                    class="category d-inline-block top-0 end-0 text-white py-0 px-3 mb-0"
+                    style="
+                      background-color: #077e63;
+                      background: skewX(-8deg);
+                      font-size: 12px;
+                    "
+                    >سياسة</span
+                  >
+                  <a hrerf="#" class="a-black text-end">
+                    هذا نص الخبر الأول يوضح بعض المعلومات والتفاصيل عن الحدث.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="news-item mb-3">
+              <div class="d-flex">
+                <img src="images/ss (2).png" alt="news" width="100" />
+
+                <div
+                  class="d-flex flex-column align-items-start row-gap-0 px-2"
+                >
+                  <span
+                    class="category d-inline-block top-0 end-0 text-white py-0 px-3 mb-0"
+                    style="
+                      background-color: #077e63;
+                      background: skewX(-8deg);
+                      font-size: 12px;
+                    "
+                    >سياسة</span
+                  >
+                  <a hrerf="#" class="a-black text-end">
+                    هذا نص الخبر الأول يوضح بعض المعلومات والتفاصيل عن الحدث.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="news-item mb-3">
+              <div class="d-flex">
+                <img src="images/ss (3).png" alt="news" width="100" />
+
+                <div
+                  class="d-flex flex-column align-items-start row-gap-0 px-2"
+                >
+                  <span
+                    class="category d-inline-block top-0 end-0 text-white py-0 px-3 mb-0"
+                    style="
+                      background-color: #077e63;
+                      background: skewX(-8deg);
+                      font-size: 12px;
+                    "
+                    >سياسة</span
+                  >
+                  <a hrerf="#" class="a-black text-end">
+                    هذا نص الخبر الأول يوضح بعض المعلومات والتفاصيل عن الحدث.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="news-item mb-3">
+              <div class="d-flex">
+                <img src="images/ss (4).png" alt="news" width="100" />
+
+                <div
+                  class="d-flex flex-column align-items-start row-gap-0 px-2"
+                >
+                  <span
+                    class="category d-inline-block top-0 end-0 text-white py-0 px-3 mb-0"
+                    style="
+                      background-color: #077e63;
+                      background: skewX(-8deg);
+                      font-size: 12px;
+                    "
+                    >سياسة</span
+                  >
+                  <a hrerf="#" class="a-black text-end">
+                    هذا نص الخبر الأول يوضح بعض المعلومات والتفاصيل عن الحدث.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more items as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-11 End -->
+
+    <!-- Section-12 starts here -->
+    <section>
+      <div class="container-fluid mb-3">
+        <div class="row g-4">
+          <div class="col-md-4 h-25 mt-1">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">سياسة</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h-1.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >دولي</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    "الولايات المتحدة تعتزم نشر قاذفات “بي 52” في الشرق الأوسط
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-25 mt-1 ">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">مجتمع</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h-2.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >امرأة</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    "القاء تكويني بأكادير حول دور النساء في الدبلوماسية الوقائية
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 mt-1 ">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">حوارات</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h-3.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >أمازيغية</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    ذكرى خطاب أجدير.. “تقاعسٌ” يُفَرمِلُ “تيفيناغ” ومطالب بإحداث
+                    وزارة للأمازيغية'
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row g-md-4 g-0">
+          <div class="col-md-4 text-end pt-0 pb-3 mt-0">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-1.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >يونس</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    فعاليات تغتنم يوم المدرس لدعوة “وزارة بنموسى” إلى الرقي
+                    بوضعية
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-2.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >أمازيغية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    “قرار خارج القانون”.. انتقادات تلاحق تخلي “معهد الإعلام” عن
+                    الأمازيغية
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l-3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >أمازيغية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    “زلة مرفوضة”.. “تحريف” الإعلام العمومي لأسماء مناطق أمازيغية
+                    يغضب “إيمازيغن”
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-end pt-0 pb-3 mt-0">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-4.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >امرأة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    فاس تحتفي بنساء رائدات بمختلف المجالات
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-5.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >امرأة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    حيار: الإرادة السياسية قوية لتعزيز المساواة بالمغرب
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l-6.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >امرأة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    دعوات لتعبئة صناديق “الخسائر والأضرار” لفائدة النساء
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-end pt-0 pb-3 mt-0">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-7.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >دولي</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    غارات إسرائيلية تستهدف جنوب لبنان
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l-8.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-13deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >عبد السلام الصديقي</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    لومي تحتضن لقاء حول البنيات التحتية للطاقة بإفريقيا
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l-9.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >دولي</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    تعطيل إسرائيلي لمنظومة الصحة.. حوامل دون رعاية أو أغذية شمال
+                    غزة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section-12 End -->
+
+    <!-- Section-13 starts here -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 h-25 px-3">
+            <div
+              class="col-12 text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title-element position-relative">اقتصاد</h5>
+            </div>
+            <div class="row px-2 gap-2 gap-md-0 gy-3">
+              <div class="col-md-6 p-2 card-element pe-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-2.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center"
+                  >
+                  <a href=""# class="a-white fs-6 heading text-right">
+                      رئيس منتدى تشويسول إفريقيا للأعمال: المغرب فاعل رئيسي في
+                      تطوير الاستثمارات 
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element ps-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-1.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section d-flex align-items-center "
+                  >
+                  <a href=""# class="a-white fs-6  heading  text-right">
+                      الخياطي يؤكد أهمية تعزيز البرمجة متعددة السنوات
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element pe-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-6.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center "
+                  >
+                  <a href=""# class="a-white fs-6  heading  text-right">
+                      صافي التدفق للاستثمارات الأجنبية المباشرة يرتفع بـ50%
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element ps-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-5.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center"
+                  >
+                  <a href=""# class="a-white fs-6  heading text-right">
+                      أكاديميون يناقشون تحديات النموذج الهش للحكامة المالية
+                      العمومية
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 h-25 px-2">
+            <div
+              class="col-12 text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title-element position-relative">أمن وعدالة</h5>
+            </div>
+            <div class="row px-2 gap-2 gap-md-0 gy-3">
+              <div class="col-md-6 p-2 card-element pe-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-4.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center"
+                  >
+                  <a href=""# class="a-white fs-6  heading text-right">
+                      توقيف فرنسي من أصول جزائرية بمطار محمد الخامس
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element ps-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-3.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center "
+                  >
+                  <a href=""# class="a-white fs-6  heading text-right">
+                      وزارة الداخلية تعزّز مراقبة الكازينوهات ومؤسسات ألعاب الحظ
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element pe-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-8.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section  d-flex align-items-center "
+                  >
+                  <a href=""# class="a-white fs-6  heading text-right">
+                      متابعة عبد المومني بحالة سراح بتهم نشر ادعاءات كاذبة
+                      والتبليغ عن جريمة خيالية
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-2 card-element ps-md-1">
+                <div class="position-relative h-100">
+                  <img
+                    src="./images/img-type-7.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <div
+                    class="card-section d-flex align-items-center"
+                  >
+                  <a href=""# class="a-white fs-6  heading  text-right">
+                      بني نصار.. إحباط محاولة تهريب الكوكايين وأقراص مهلوسة
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-13 End-->
+
+    <!-- Section-14 starts here -->
+    <section>
+      <div class="container-fluid mb-3">
+        <div class="row g-4">
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">سياسة</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h8-3.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >صحة وجمال</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    موضة “البوتوكوس” والفيلر تهدد مغربيات وخبير يحذر من
+                    “التشوهات”
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">مجتمع</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h8-2.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >سيارات</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    إنتاج السيارات بالصين يسجل زيادة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">حوارات</h5>
+            </div>
+            <div class="position-relative">
+              <img
+                src="./images/h8-1.png"
+                class="card-img"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >موضة</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    "للا حسناء والشيخة المياسة تترأسان حفل عشاء “فاشن تراست
+                    أرابيا”
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-md-4 g-0">
+          <div class="col-md-4 text-end px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-1.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >موضة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    مريم البيض: القفطان المغربي عالمي وأنا ولمجرد في الحلوة
+                    والمرة
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-2.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >موضة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    روميو: الجزائر تستغل تألق القفطان عالميا وأصالة أفضل من
+                    لبسته
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l8-3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >موضة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    مصممون يشيدون بعالمية القفطان المغربي ويصفون محاولات سطو
+                    الجزائر
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-end  px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-4.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >سيارات</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    المنصوري تصادق على قرار جديد يهم المتقاعدين وذوي الحقوق
+                    التابعين
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-5.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >سيارات</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    بلخياط: سلمنا أكثر من 40 سيارة مغربية الصنع واستقبال الملك
+                    حفزنا
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l8-6.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >اقتصاد</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    “خيرنا مايديه غيرنا”.. مزور يكشف لأول مرة حجز إيطاليا
+                    لسيارات مغربية الصنع
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-end  px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-7.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >صحة وجمال</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    3 مكملات غذائية لتفادي علامات التقدم في العمر
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/l8-8.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >صحة وجمال</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    دعوة لصناع البوتوكس لتضمين تحذيرات بشأن خطر الإصابة بمرض
+                    مميت يصيب
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/l8-9.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >صحة وجمال</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    مجففات الأظافر المستخدمة في صالونات التجميل تعرض السيدات
+                    لخطر الإصابة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-14 End -->
+
+    <!-- Section-15 starts here -->
+    <section>
+      <div class="container-fluid mb-3">
+        <div class="row g-4">
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">سياسة</h5>
+            </div>
+            <div class="position-relative">
+              <img src="./images/a3.png" class="card-img" width="100%" alt="" />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >بورتريه</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    مهيدية.. والٍ جرّاح يُجري أكبر عملية تجميل في تاريخ الدار
+                    البيضاء
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">مجتمع</h5>
+            </div>
+            <div class="position-relative">
+              <img src="./images/a2.png" class="card-img" width="100%" alt="" />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >صوت الجامعة</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    خبراء وحقوقيون يبرزون دور المغرب لتعزيز حقوق الإنسان
+                    بإفريقيا
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 px-3">
+            <div
+              class="text-end pt-2 px-2 border-bottom border-1 border-success mb-2"
+            >
+              <h5 class="title position-relative">حوارات</h5>
+            </div>
+            <div class="position-relative">
+              <img src="./images/a1.png" class="card-img" width="100%" alt="" />
+            </div>
+            <div class="col-12 mb-4 text-end mt-3">
+              <div>
+                <div
+                  class="d-flex flex-row-reverse justify-content-between"
+                  style="height: 50px"
+                >
+                  <div class="d-flex align-items-start">
+                    <i class="fa fa-calendar" aria-hidden="true" style="color: #18bd98;"></i>
+
+                    <span>
+                      <p class="date text-start">ُ٢٥ أكتوبر ٢٠٢٤</p>
+                    </span>
+                  </div>
+                  <div style="width: 90%">
+                    <div
+                      class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                      style="transform: skewX(-8deg)"
+                    >
+                      <span style="transform: skewX(20deg)" class="skew-text"
+                        >ثقافة</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative top-50">
+                  <a href="#" class="a-black fs-6 fw-bold text-dark mb-2 paragraph">
+                    تقديم ديوان شعري جديد لإدريس لحمر بفاس
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid mb-3">
+        <div class="row g-md-4 g-0">
+          <div class="col-md-4 h-25  px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b1.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >ثقافة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    مشاركة الفيلم المغربي “ذاكرة جسد” ضمن مسابقة بالبحرين
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b2.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >ثقافة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    السليماني: هناك اهتمام حقيقي بالثقافة المغربية بعدما كانت
+                    مقتصرة على الفولكلور
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/b3.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >ثقافة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    الخمليشي يفوز بجائزة قطر العالمية لحوار الحضارات
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b4.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >افتتاحية</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    بينها التركيز على التخصصات الرقمية.. ميداوي يكشف خارطة طريق
+                    2025
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b5.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >صوت الجامعة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    طلبة الطب يعلقون “احتجاجاتهم” المبرمجة وينتظرون العرض
+                    النهائي لميداوي
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/b6.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >صوت الجامعة</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    لقاء حاسم لطلبة الطب مع وسيط المملكة وترقب لمخرجات الاجتماع
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 h-25 px-0 px-md-3">
+            <div class="border-end border-4 border-color text-end pe-1">
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b7.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >بورتريه</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    من هو حسن نصر الله الذي لاحقته إسرائيل لسنوات لاغتياله؟
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex border-bottom border-2 border-color mb-2 pb-2 pb-md-0"
+              >
+                <div class="col-3">
+                  <img
+                    src="./images/b8.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >بورتريه</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    محمد أورنغزيب.. وزير تخلى عن الراتب لإنقاذ اقتصاد باكستان
+                    المأزوم
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-3">
+                  <img
+                    src="./images/b9.png"
+                    class=""
+                    width="100%"
+                    height=""
+                    alt=""
+                  />
+                </div>
+                <div class="pe-2 col-9">
+                  <div
+                    class="d-inline-block top-0 end-0 bg-gradient-grn-1 text-white py-0 px-3 mb-0"
+                    style="transform: skewX(-8deg)"
+                  >
+                    <span style="transform: skewX(20deg)" class="skew-text"
+                      >بورتريه</span
+                    >
+                  </div>
+                  <a href="#" class="a-black d-block fw-bolder fs-6 mt-2 m-1 lh-sm paragraph">
+                    الحبيب المومو: جسد حبيس الإعاقة وروح تحلق في رحاب القرآن
+                    الكريم الفسيحة
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section-15 End -->
+
+    <!-- Section-16 starts here -->
+    <!-- Footer -->
+    <footer
+      class="text-white text-center p-4 d-flex flex-column align-items-center justify-content-end" style="background: linear-gradient(0deg, #0F8D8D 0%, #0F7D7D 23.5%, #105B5B 50%, #0F7E7E 75.5%, #0F8D8D 100%);
+"
+    >
+      <!-- Footer title -->
+      <h4 class="mb-3 footer-logo">
+        <img src="images/logo (1) copy 1.png" alt="" />
+      </h4>
+
+      <!-- Footer Links -->
+      <div class="d-flex flex-row-reverse flex-wrap justify-content-center mb-3">
+        <a href="#" class="text-white text-decoration-none mx-2">الرئيسية</a>
+        <a href="#" class="text-white text-decoration-none mx-2"
+          >للإعلان لدينا</a
+        >
+        <a href="#" class="text-white text-decoration-none mx-2"
+          >خطنا التحريري</a
+        >
+        <a href="#" class="text-white text-decoration-none mx-2"
+          >للنشر على موقعنا</a
+        >
+        <a href="#" class="text-white text-decoration-none mx-2">فريق العمل</a>
+        <a href="#" class="text-white text-decoration-none mx-2">اتصل بنا</a>
+        <a href="#" class="text-white text-decoration-none mx-2">من نحن</a>
+        <a href="#" class="text-white text-decoration-none mx-2"
+          >سياسة الخصوصية</a
+        >
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="mb-3 d-flex flex-row-reverse g-6">
+        <div class="p-1 social-icon-ft border rounded-circle mx-md-2 mx-1">
+          <a href="#" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="p-1 social-icon-ft mx-md-2 mx-1">
+          <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="p-1 social-icon-ft  mx-md-2 mx-1">
+          <a href="#" class="mx-2"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+        <div class="p-1 social-icon-ft  mx-md-2 mx-1">
+          <a href="#" class="mx-2"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div class="p-1 social-icon-ft  mx-md-2 mx-1">
+          <a href="#" class="mx-2"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="p-1 social-icon-ft  mx-md-2 mx-1">
+          <a href="#" class="mx-2"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <p class="mb-0" style="color:#FFFFFF99; font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      ">© copyright to MADAR21</p>
+    </footer>
+    <!-- Section-16 End -->
+    <!--  -->
+
+    <!-- End Top border-2 -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4df42378d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
